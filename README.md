@@ -16,8 +16,7 @@ Este é um projeto de calculadora simples desenvolvido para iOS utilizando Swift
 
 1. Clone este repositório:
  
- ''git clone https://github.com/seu-usuario/calculadora-ios.git''
-
+ `git clone https://github.com/seu-usuario/calculadora-ios.git`
 
 2. Abra o projeto no Xcode:
 - Navegue até o diretório onde o repositório foi clonado.
