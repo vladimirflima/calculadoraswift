@@ -11,12 +11,10 @@
 		A538CF932C3C3DA0002AE0B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538CF922C3C3DA0002AE0B9 /* ContentView.swift */; };
 		A538CF952C3C3DA1002AE0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A538CF942C3C3DA1002AE0B9 /* Assets.xcassets */; };
 		A538CF982C3C3DA1002AE0B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A538CF972C3C3DA1002AE0B9 /* Preview Assets.xcassets */; };
-		A538CFA22C3C3DA2002AE0B9 /* Calculadora_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538CFA12C3C3DA2002AE0B9 /* Calculadora_iOSTests.swift */; };
-		A538CFAC2C3C3DA2002AE0B9 /* Calculadora_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538CFAB2C3C3DA2002AE0B9 /* Calculadora_iOSUITests.swift */; };
-		A538CFAE2C3C3DA2002AE0B9 /* Calculadora_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538CFAD2C3C3DA2002AE0B9 /* Calculadora_iOSUITestsLaunchTests.swift */; };
 		A5C46CAF2C3EC89600CA0CE1 /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C46CAE2C3EC89600CA0CE1 /* ViewControllerRepresentable.swift */; };
 		A5C46CB12C3EC99500CA0CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C46CB02C3EC99500CA0CE1 /* ViewController.swift */; };
 		A5C46CB32C3ECBC900CA0CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C46CB22C3ECBC900CA0CE1 /* Main.storyboard */; };
+		A5C48A312C4FFAF600757760 /* ViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C48A302C4FFAF600757760 /* ViewControllerWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +41,11 @@
 		A538CF942C3C3DA1002AE0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A538CF972C3C3DA1002AE0B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A538CF9D2C3C3DA2002AE0B9 /* Calculadora iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculadora iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A538CFA12C3C3DA2002AE0B9 /* Calculadora_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_iOSTests.swift; sourceTree = "<group>"; };
 		A538CFA72C3C3DA2002AE0B9 /* Calculadora iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculadora iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A538CFAB2C3C3DA2002AE0B9 /* Calculadora_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_iOSUITests.swift; sourceTree = "<group>"; };
-		A538CFAD2C3C3DA2002AE0B9 /* Calculadora_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A5C46CAE2C3EC89600CA0CE1 /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		A5C46CB02C3EC99500CA0CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5C46CB22C3ECBC900CA0CE1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A5C48A302C4FFAF600757760 /* ViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				A538CF8F2C3C3DA0002AE0B9 /* Calculadora iOS */,
-				A538CFA02C3C3DA2002AE0B9 /* Calculadora iOSTests */,
-				A538CFAA2C3C3DA2002AE0B9 /* Calculadora iOSUITests */,
 				A538CF8E2C3C3DA0002AE0B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +98,7 @@
 				A538CF922C3C3DA0002AE0B9 /* ContentView.swift */,
 				A5C46CB02C3EC99500CA0CE1 /* ViewController.swift */,
 				A5C46CAE2C3EC89600CA0CE1 /* ViewControllerRepresentable.swift */,
+				A5C48A302C4FFAF600757760 /* ViewControllerWrapper.swift */,
 				A5C46CB22C3ECBC900CA0CE1 /* Main.storyboard */,
 				A538CF942C3C3DA1002AE0B9 /* Assets.xcassets */,
 				A538CF962C3C3DA1002AE0B9 /* Preview Content */,
@@ -117,23 +112,6 @@
 				A538CF972C3C3DA1002AE0B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A538CFA02C3C3DA2002AE0B9 /* Calculadora iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A538CFA12C3C3DA2002AE0B9 /* Calculadora_iOSTests.swift */,
-			);
-			path = "Calculadora iOSTests";
-			sourceTree = "<group>";
-		};
-		A538CFAA2C3C3DA2002AE0B9 /* Calculadora iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A538CFAB2C3C3DA2002AE0B9 /* Calculadora_iOSUITests.swift */,
-				A538CFAD2C3C3DA2002AE0B9 /* Calculadora_iOSUITestsLaunchTests.swift */,
-			);
-			path = "Calculadora iOSUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +249,7 @@
 				A538CF932C3C3DA0002AE0B9 /* ContentView.swift in Sources */,
 				A5C46CB12C3EC99500CA0CE1 /* ViewController.swift in Sources */,
 				A538CF912C3C3DA0002AE0B9 /* Calculadora_iOSApp.swift in Sources */,
+				A5C48A312C4FFAF600757760 /* ViewControllerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A538CFA22C3C3DA2002AE0B9 /* Calculadora_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A538CFAE2C3C3DA2002AE0B9 /* Calculadora_iOSUITestsLaunchTests.swift in Sources */,
-				A538CFAC2C3C3DA2002AE0B9 /* Calculadora_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
